@@ -1,0 +1,215 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight:400;
+  src: url("../fonts/ptsans-400.woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight:700;
+  src: url("../fonts/ptsans-700.woff2");
+  font-display: swap;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "PT Sans", "Arial", sans-serif;
+}
+.page-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.visually-hidden {
+  display: none;
+}
+
+.button {
+  color: #ffffff;
+  background-color: #83B3D3;
+  font-size: 20px;
+  line-height: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.small-button {
+  color: #ffffff;
+  background-color: #83B3D3;
+  font-size: 16px;
+  line-height: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.dark-button {
+  background-color: rgba(117, 98, 87, 1);
+}
+.in-favourites-button {
+  background-color: rgba(125, 181, 79, 1);
+}
+
+/* navigatoin at the top of ever page */
+.navigation {
+  width: 1060px;
+  height: auto;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+}
+.navigation-link {
+  text-decoration: none;
+  color: inherit;
+}
+.navigation-search {
+  background: url("../images/icons/search.svg") no-repeat;
+  height: 17px;
+
+}
+.navigation-favourites {
+  background: url("../images/icons/favorite.svg") no-repeat;
+  height: 17px;
+}
+
+
+/* index-page */
+.index-presentation {
+  color:white;
+  background-color:  #83B3D3  ;
+  background: url("../images/divider.svg") bottom center no-repeat,
+   url("../images/index-background.jpg") center no-repeat;
+  background-size: 1200px auto;
+  height: 485px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+.desc {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.reasons-title {
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 36px;
+}
+.reason-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+.reason-description {
+  font-size: 18px;
+  line-height: 21px;
+}
+.reason-container {
+  width: 400px;
+  height: 384px;
+  color: white;
+  text-align: center;
+  background-color: #83B3D3;
+}
+
+.reason-container-light {
+  color: black;
+  background-color: rgba(131, 179, 211, 0.12);
+}
+.reason-container-superlight {
+  color: black;
+  background-color: rgba(131, 179, 211, 0.20);
+}
+.reason-container-white {
+  color: black;
+  background-color: white;
+}
+.first-reason-house {
+  background: url("../images/icons/housing.svg") center no-repeat;
+  height: 72px;
+}
+.first-reason-food {
+  background: url("../images/icons/food.svg") center no-repeat;
+  height: 70px;
+}
+.first-reason-souvenirs {
+  background: url("../images/icons/souvenirs.svg") center no-repeat;
+  height: 76px;
+}
+
+.searching {
+  height: 417px;
+  text-align: center;
+}
+
+
+/* footer */
+.subscribe-footer {
+  height: 411px;
+  text-align: center;
+}
+
+.subscribe-index {
+  color: white;
+  background: #83B3D3 url("../images/subscribe-background.jpg") center no-repeat;
+  background-size: 1200px auto;
+}
+
+.contacts-footer {
+  height: 120px;
+}
+.contacts-mobile-block {
+  font-size: 40px;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+.contacts-mobile-link {
+  text-decoration: none;
+  color: black;
+}
+
+
+/* catalog */
+.catalog-header {
+  background: rgba(131, 179, 211, 1) url("../images/catalog-background.jpg") center no-repeat;
+  height: auto;
+  color: white;
+}
+.catalog-header-title {
+  font-size: 60px;
+  line-height: normal;
+  font-weight: 700;
+}
+
+.breadcrumbs {
+  font-size: 16px;
+}
+.breadcrumbs-link {
+  text-decoration: none;
+  color:white;
+}
+.home-link-mark {
+  background: url("../images/icons/home.svg") no-repeat;
+  height: 12px;
+}
+.next-mark {
+  background: url("../images/icons/nav-link.svg") no-repeat;
+  height: 8px;
+}
+
+.card-place-title {
+  text-decoration: none;
+  color: inherit;
+}
+
+.link-current {
+  background-color: rgba(242, 242, 242, 1);
+  color: black;
+}
