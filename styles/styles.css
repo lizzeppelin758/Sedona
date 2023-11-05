@@ -518,6 +518,10 @@ body {
   border-color: rgba(255, 87, 87, 1);
 }
 
+.subscribe-email:disabled {
+  opacity: 0.3;
+}
+
 .subscribe-button {
   width: 200px;
   margin-left: auto;
@@ -599,6 +603,7 @@ body {
   color: #000000;
   width: 361px;
   padding: 15px 0;
+  border-radius: 10px;
 }
 
 .contacts-creators-link {
@@ -608,6 +613,7 @@ body {
   width: 141px;
   height: 60px;
   padding: 10px;
+  border-radius: 10px;
 }
 
 .contacts-mobile-link:hover {
@@ -615,10 +621,8 @@ body {
 }
 
 .contacts-mobile-link:focus {
-  outline: none;
+  outline: 3px solid rgba(131, 179, 211, 1);
   color: rgba(117, 98, 87, 1);
-  border: 3px solid rgba(131, 179, 211, 1);
-  border-radius: 10px;
 }
 
 .contacts-mobile-link:active {
@@ -634,9 +638,7 @@ body {
 }
 
 .contacts-creators-link:focus {
-  outline: none;
-  border: 3px solid rgba(131, 179, 211, 1);
-  border-radius: 10px;
+  outline: 3px solid rgba(131, 179, 211, 1);
 }
 
 .contacts-creators-link:active svg {
@@ -846,6 +848,10 @@ body {
   box-shadow: inset 0 0 0 3px rgba(131, 179, 211, 1);
 }
 
+.control-input:disabled + .control-mark {
+  opacity: 0.3;
+}
+
 /* range-слайдер */
 .filter-price {
   width: 287px;
@@ -956,6 +962,10 @@ body {
   background-color: rgba(117, 98, 87, 1);
 }
 
+.catalog-filter-input:disabled {
+  opacity: 0.3;
+}
+
 .range-price-container {
   position: relative;
 }
@@ -990,9 +1000,8 @@ body {
 }
 
 .filter-button:focus {
-  outline: none;
+  outline: 3px solid #ffffff;
   background-color: rgba(104, 162, 202, 1);
-  border-color: #ffffff;
 }
 
 .filter-button:active {
@@ -1021,7 +1030,7 @@ body {
 }
 
 .reset-button:focus {
-  outline: 3px solid rgba(255, 255, 255, 0);
+  outline: 3px solid #83b3d3;
 }
 
 .reset-button:active {
@@ -1558,6 +1567,10 @@ body {
   width: 155px;
 }
 
+.small-search-label {
+  width: 55px;
+}
+
 .search-input {
   background-color: rgba(242, 242, 242, 1);
   border-radius: 4px;
@@ -1663,10 +1676,10 @@ body {
   outline: 2px solid #000000;
 }
 
-.popover-label {
+.popover-open-container {
   position: relative;
-  width: 97px;
-  padding-right: 43px;
+  width: 43px;
+
 }
 
 .guests-input {
@@ -1686,6 +1699,10 @@ body {
 .search-input[type="number"]:focus {
   appearance: none;
   -moz-appearance: textfield;
+}
+
+.search-input:disabled {
+  opacity: 0.3;
 }
 
 .guests-input:focus {
@@ -1787,8 +1804,8 @@ body {
   width: 256px;
   height: 143px;
 
-  left: -61px;
-  top: 54px;
+  left: -115px;
+  top: 53px;
 
   padding: 15px 18px 18px 22px;
 }

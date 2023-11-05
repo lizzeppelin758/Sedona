@@ -242,20 +242,20 @@
               <fieldset class="search-field date-field">
                 <legend class="visually-hidden">Выбор даты заезда</legend>
                 <label class="search-label" for="arriving-date">Дата заезда:</label>
-                <input class="search-input date-input" id="arriving-date" type="text" name="date-arrive" value="2020-04-27" placeholder="27 апреля 2020"
+                <input class="search-input date-input" id="arriving-date" type="text" name="date-arrive" placeholder="27 апреля 2020"
                 onfocus="(this.type='date')" onblur="if(this.value==''){this.type='text'}" min="2023-10-10">
                 <div class="date-input-container"></div>
               </fieldset>
               <fieldset class="search-field date-field">
                 <legend class="visually-hidden">Выбор даты выезда</legend>
                 <label class="search-label" for="leaving-date">Дата выезда:</label>
-                <input class="search-input date-input" id="leaving-date" type="text" name="date-leave" value="2021-09-01" placeholder="1 сентября 2021"
+                <input class="search-input date-input" id="leaving-date" type="text" name="date-leave" placeholder="1 сентября 2021"
                 onfocus="(this.type='date')" onblur="if(this.value==''){this.type='text'}" min="2023-10-10">
                 <div class="date-input-container"></div>
               </fieldset>
               <fieldset class="search-field guests-field">
                 <legend class="visually-hidden">Количество взрослых гостей</legend>
-                <label class="search-label small-search-label" for="adult">Взрослые:</label>
+                <label class="search-label" for="adult">Взрослые:</label>
                 <div class="guests-input-container">
                   <button class="button-minus button-number" type="button">
                     <span class="visually-hidden">Уменьшить количество</span>
@@ -281,13 +281,15 @@
               </fieldset>
               <fieldset class="search-field guests-field">
                 <legend class="visually-hidden">Количество детей</legend>
-                <label class="search-label popover-label" for="young">Дети: </label>
-                <button class="button-popover" type="button">
-                  <span class="visually-hidden">Показать дополнительную информацию</span>
-                </button>
-                <div class="popover popover-info">
-                  <button class="popover-close-button visually-hidden" type="button">Закрыть поповер</button>
-                  <div class="popover-content">Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</div>
+                <label class="search-label small-search-label" for="young">Дети: </label>
+                <div class="popover-open-container">
+                  <button class="button-popover" type="button">
+                    <span class="visually-hidden">Показать дополнительную информацию</span>
+                  </button>
+                  <div class="popover popover-info">
+                    <button class="popover-close-button visually-hidden" type="button">Закрыть поповер</button>
+                    <div class="popover-content">Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</div>
+                  </div>
                 </div>
                 <div class="guests-input-container">
                   <button class="button-minus button-number" type="button">
